@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CheckBox</title>
+    <!-- css -->
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body>
+    <form action="action.php" method="post">
+      <p>My Checkbox:</p>
+
+      <label for="myCheck1"></label>
+      <input
+        class="customCheckbox"
+        type="checkbox"
+        id="myCheck1"
+        onclick="myFunction1()"
+      />
+      <p id="text1" style="display: none">
+        <strong>Checkbox is CHECKED!</strong>
+      </p>
+      <br />
+
+      <label for="myCheck2"></label>
+      <input
+        class="customCheckbox"
+        type="checkbox"
+        id="myCheck2"
+        onclick="myFunction2()"
+      />
+      <p id="text2" style="display: none">
+        <strong>Checkbox is CHECKED!</strong>
+      </p>
+      <br />
+
+      <label for="myCheck3"></label>
+      <input
+        class="customCheckbox"
+        type="checkbox"
+        id="myCheck3"
+        onclick="myFunction3()"
+      />
+      <p id="text3" style="display: none">
+        <strong>Checkbox is CHECKED!</strong>
+      </p>
+    </form>
+    <!-- script -->
+    <script src="text.js" defer></script>
+  </body>
+</html>
